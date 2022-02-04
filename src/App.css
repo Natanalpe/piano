@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px 1px 0px 1px;
+  width: 4vw;
+  height: 23vh;
+  padding-top: 8%;
+  min-width: 20px;
+}
+
+button:focus:not(:active) {
+  animation: animBtn .1s linear;
+}
+
+@keyframes animBtn {
+  0% {
+    background-color: rgb(194, 194, 194);
+    color: white;
+  }
+  50% {
+    background-color: rgb(75, 75, 75);
+    color: white;
+  }
+  100% {
+    background-color: rgb(22, 22, 22);
+    color: white;
+  }
+}
